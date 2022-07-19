@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Merriweather+Sans:ital@1&family=Overpass&family=Poppins:wght@400;500&family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: var(--black); */
+}
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+:root {
+  --black: #3a3a3a;
+  --pink: #e02c6d;
+  --white:#ffff;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-top: 86px;
+}
+.nav-menu li {
+  list-style: none;
+}
+.nav-menu a {
+  text-decoration: none;
+}
+.nav-right {
+  display: flex;
+  margin-right: 119px;
+  justify-content: space-around;
+  gap: 34px;
+  /* color: var(--#3A3A3A); */
+}
+ul a {
+  color: var(--black);
+}
+.menu-discription {
+  display: flex;
+  /* align-items: center;
+    justify-content: center; */
+  gap: 80px;
+}
+.big {
+  font-family: Poppins;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.btn{
+    margin-top: 19px;
+    padding: 5px;
+}
+.btn a{
+  background-color: var(--pink);
+  /* width: 196px;
+  height: 44px; */
+  /* left: 120px;
+  top: 511px; */
+  text-decoration: none;
+  border-radius: 40px;
+  margin 19px;
+  padding: 8px;
+  color:var(--white)
+  /* gap: 10px; */
+}
+.menu-left {
+  margin-left: 120px;
+  width: 50%;
+  margin-top: 145px;
+}
+.menu-right {
+  margin-top: 40px;
+  width: 50%;
+}
+.menu-img {
+  position: relative;
+}
+.img-1 {
+  /* position: relative; */
+}
+
+.img-2 {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.manu-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+hr{
+    border: 1px solid rgb(232, 232, 232);
+    width: 80%;
+    margin: auto;
+}
+.logo-img{
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.middle{
+    margin-top:100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.popular-collection .card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 60px;
+    grid-gap: 30px;
+    
+}.popular-collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 197px;
+
+}
+.card{
+    width: 329px;
+    height: 476px;
+   border: 0px solid gray;
+    box-shadow:5px 5px 20px gr ;
+    margin-left: 196px;
+}
+.thumbnail{
+    width: 300px;
+   
+}
+.orange{
+    color: orange;
+}
